@@ -21,35 +21,43 @@
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Sobre</a>
-                <a href="#">Endereço</a>
+                <a href="#" onclick="mostrarModal()">Endereço</a>
             </nav>
         </section>
     </header>
 
     
-        <section>
+        <section class="caixa-principal">
             <div>
                 <h3>Code com o Melhor café da Região</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos ex nulla accusantium. Sit quis esse assumenda voluptatum praesentium ea reprehenderit dolore nostrum. Illo repellat adipisci harum dolor ut praesentium quas?</p>
-                <a href="">Pague o seu agora</a>
+                <a class="botao-link">Pague o seu agora</a>
             </div>
         </section>
 
-        <section>
-            <h2><span>Sobre</span>Nós</h2>
-            <div>
-                <div>
+        <section class="caixa-sobre">
+            <h2 class="titulo"> <span>Sobre</span>  Nós </h2>
+            <div class="Sobre-container">
+                <div class="Sobre-imagem">
                     <img src="img/about-img.jpeg" alt="">
                 </div>
 
-                <div>
+                <div class="Sobre-texto">
                     <h3>O que faz nosso café especial</h3>
                      <p>ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque vero ullam rem nesciunt quod sunt consectetur. Facilis enim tempore esse, animi, dignissimos cumque eligendi vero suscipit nulla debitis reprehenderit.</p>
                      <p>ipsum dolor sit amet consectetur adipisicing elit. Recusandae neque vero ullam rem nesciunt quod sunt consectetur. Facilis enim tempore esse, animi, dignissimos cumque eligendi vero suscipit nulla debitis reprehenderit.</p>
-                     <a href="">Saida Mais</a>
+                     <a class="botao-link">Saida Mais</a>
                 </div>
             </div>
         </section>
-    
+
+        <div class="modal">
+            <h3 class="titulo"><span>Nosso</span> Endereço</h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248901.92830631474!2d-38.42019100000002!3d-12.901764999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716112050422ebd%3A0xf71c84369573db9d!2sSalvador%2C%20BA!5e0!3m2!1spt-BR!2sbr!4v1730925704588!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="mascara-modal" onclick="esconderModal()"></div>
+
+        <script src="scripts.js"></script>
 </body>
 </html>
