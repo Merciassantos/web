@@ -1,0 +1,87 @@
+@media screen and (max-width: 1170px) {
+    
+    #nav_list, #navbar .btn-default{
+        display: none;
+    }
+
+     #mobile_btn  {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+        
+
+    }
+
+    #mobile_menu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobile_nav_list .nav-item{
+        list-style: none;
+        text-align: center;
+    }
+
+    /* estilo da home  */
+
+    #home {
+        min-height: 100%;
+        padding-top: 0px;
+    }
+
+    #banner,#banner img, #home .shape{
+        display: none;
+
+    }
+
+    #cta {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/* responsivo menu */
+
+@media screen and (max-width:1170px) {
+    .dishes {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .dish{
+        width: calc(50% - 12px);
+    }
+}
+
+@media screen and (max-width:600px) {
+    .dish {
+        width: 100%;
+    }
+
+    #menu .section-subtitle{
+        text-align: center;
+    }
+}
+
+/* responsivo section testimoniol */
+
+@media screen and (max-width:1170px){
+    #testimonials{
+        flex-direction: column;
+    }
+
+    #testimonial_chef{
+        display: none;
+    }
+}
