@@ -310,3 +310,19 @@ section{
 .feedback-content p span{
     color: #e9a209;
 }
+
+footer{
+    background-color: #ffe8b4;
+}
+
+#footer_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 8px 24px 8px;
+    align-items: center;
+}
+
+#copyright{
+    color:#1d1d1d;
+    font-weight: 500;
+}
